@@ -6,10 +6,10 @@
     {{ with .Site.Params.copyright }}
         {{ . | markdownify }}
     {{ else }}
-        © Copyright {{.Now.Format "2006"}} <i class="fa fa-heart" aria-hidden="true"></i> {{ .Site.Params.name }}
+        © Copyright {{.Now.Format "2006"}} <i class="fa fa-random" aria-hidden="true"></i> {{ .Site.Params.name }}
     {{ end }}
     </p>
     <p class="small">
-        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="http://nodejh.com">nodejh</a>
+        Built with <a href="http://www.gohugo.io/">Hugo</a>. Hosted on <a href="http://www.github.com/"> Github</a>.
     </p>
 </footer>
